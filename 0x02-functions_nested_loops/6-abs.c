@@ -10,12 +10,10 @@ int _abs(int j)
 	if (j < 0)
 	{
 		j = j * -1;
-		_putchar(j);
+		return (j);
 	}
 	else
 	{
-		_putchar(j);
+		return (j);
 	}
-
-	return (j);
 }
