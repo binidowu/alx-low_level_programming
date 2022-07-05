@@ -1,4 +1,4 @@
-# include "main.h"
+#include "main.h"
 /**
  * print_alphabet_x10 - prints 10 times the alphabet, in lowercase, followed by
  * a new line
@@ -12,8 +12,8 @@ int main(void)
 	{
 		for (i = 'a'; i <= 'z'; i++)
 		{
-			putchar(i);
+			_putchar(i);
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
 }
