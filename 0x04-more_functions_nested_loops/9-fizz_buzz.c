@@ -23,12 +23,12 @@ int main(void)
 		}
 		else
 		{
-			printf("%i", i);
+			printf("%d", i);
 		}
-		if (i != 100)
-		{
-			putchar(' ');
-		}
+
+		if (num == 100)
+			continue;
+		printf(" ");
 	}
 
 	putchar('\n');
