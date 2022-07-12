@@ -8,11 +8,11 @@
  */
 int _strlen(char *s)
 {
-	int len;
+	int len = 0;
 
 	/* Increments len to the value of s, post increment */
-	for (len = 0; len < *s++; len++)
-		;
+	while (*s++)
+		len++;
 
 	return (len);
 }
