@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _strncpy - Copies at most an inputted number
- *            of bytes from string src into dest.
- * @dest: Buffer storing the string copy.
- * @src: Source string.
- * @n: Maximum number of bytes to copied from src.
+ * _strncat - Concatenates two strings using at most
+ *            an inputted number of bytes from src.
+ * @dest: String to be appended upon.
+ * @src: String to be appended to dest.
+ * @n: Number of bytes from src to be appended to dest.
  *
  * Return: Pointer to the resulting string dest.
  */
